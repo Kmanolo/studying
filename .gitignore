@@ -1,0 +1,25 @@
+# --- Specific Requests ---
+# Ignore Jupyter checkpoint files anywhere in the tree
+**/*-checkpoint.ipynb
+**/.ipynb_checkpoints/
+
+# Ignore compiled Python files
+**/*.pyc
+**/__pycache__/
+**/*.pyo
+**/*.pyd
+
+# --- Python Standard ---
+bin/
+lib/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.flakes8
+.rufff_cache/
+
+# --- Jupyter & Data Science ---
+# If you use ipywidgets or other local state
+.ipynb_checkpoints
+.ipython/
